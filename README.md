@@ -2,6 +2,12 @@
 Official PyTorch Implementation of “VLScene: Vision-Language Guidance Distillation for Camera-based 3D Semantic Scene Completion”**(AAAI 2025 Oral)**, Paper is on [arxiv](https://arxiv.org/abs/2503.06219).
 
 
+# Teaser
+- **Comparison with MonoScene on SemanticKITTI:**
+<p align="center">
+<img src="./teaser/demo.gif" />
+</p>
+
 # Abstract
 Camera-based 3D semantic scene completion (SSC) provides dense geometric and semantic perception for autonomous driving. However, images provide limited information making the model susceptible to geometric ambiguity caused by occlusion and perspective distortion. Existing methods often lack explicit semantic modeling between objects, limiting their perception of 3D semantic context. To address these challenges, we propose a novel method VLScene: Vision-Language Guidance Distillation for Camera-based 3D Semantic Scene Completion. The key insight is to use the vision-language model to introduce high-level semantic priors to provide the object spatial context required for 3D scene understanding. Specifically, we design a vision-language guidance distillation process to enhance image features, which can effectively capture semantic knowledge from the surrounding environment and improve spatial context reasoning. In addition, we introduce a geometric-semantic sparse awareness mechanism to propagate geometric structures in the neighborhood and enhance semantic information through contextual sparse interactions. Experimental results demonstrate that VLScene achieves rank-1st performance on challenging benchmarks—SemanticKITTI and SSCBench-KITTI-360, yielding remarkably mIoU scores of 17.52 and 19.10, respectively.
 
