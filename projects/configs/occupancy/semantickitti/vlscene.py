@@ -3,7 +3,7 @@ _base_ = [
     '../../_base_/default_runtime.py'
 ]
 
-work_dir = 'work_dirs/VLScene+pre_conv'
+work_dir = 'work_dirs/VLScene'
 plugin = True
 plugin_dir = "projects/mmdet3d_plugin/"
 # to be checked, from https://github.com/open-mmlab/mmclassification/blob/master/configs/efficientnet/efficientnet-b7_8xb32-01norm_in1k.py
