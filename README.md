@@ -3,9 +3,9 @@ Official PyTorch Implementation of “VLScene: Vision-Language Guidance Distilla
 
 
 # Teaser
-- **Comparison with MonoScene on SemanticKITTI:**
+- **Comparison with VoxFormer on SemanticKITTI:**
 <p align="center">
-<img src="./teaser/demo.gif" />
+<img src="./VLScene.gif" />
 </p>
 
 # Abstract
