@@ -1,6 +1,3 @@
-# -*- coding:utf-8 -*-
-# author: Xinge, Xzy
-# @file: segmentator_3d_asymm_spconv.py
 
 import numpy as np
 import spconv.pytorch as spconv
