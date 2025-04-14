@@ -67,7 +67,7 @@ bash process_kitti.sh
 
 # Pretrained Model
 
-Download [RepViT-M2.3-300e](https://github.com/THU-MIG/RepViT/releases/download/v1.0/repvit_m2_3_distill_300e.pth) and the [LSeg model](https://drive.google.com/file/d/1ayk6NXURI_vIPlym16f_RG3ffxBWHxvb/view?usp=sharing), put them into `./checkpoints`.
+Download the [RepViT-M2.3-300e](https://github.com/THU-MIG/RepViT/releases/download/v1.0/repvit_m2_3_distill_300e.pth), the [LSeg model](https://drive.google.com/file/d/1ayk6NXURI_vIPlym16f_RG3ffxBWHxvb/view?usp=sharing) and [VLScene](https://pan.baidu.com/s/1Axv1TzH8Xi415a86Up5V9w) 提取码: k9vy, put them into `./checkpoints`.
 
 
 # Training & Evaluation
