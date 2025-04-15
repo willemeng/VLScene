@@ -98,7 +98,7 @@ python tools/test.py  \
 ## Multiple GPUS
 - **Train with n GPUs:**
 ```
-bash run.sh  \
+bash tools/dist_train.sh  \
         projects/configs/occupancy/semantickitti/vlscene.py n
 ```
 
