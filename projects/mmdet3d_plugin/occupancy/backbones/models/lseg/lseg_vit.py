@@ -222,7 +222,9 @@ def _make_pretrained_clip_vitl16_384(
     pretrained, use_readout="ignore", hooks=None, enable_attention_hooks=False
 ):
     clip_pretrained, _ = clip.load("ViT-B/32", device='cuda', jit=False)
-    model = timm.create_model("vit_large_patch16_384", pretrained=pretrained, pretrained_cfg_overlay=dict(file='~/.cache/huggingface/hub/models--timm--vit_large_patch16_384.augreg_in21k_ft_in1k/pytorch_model.bin'))
+    model = timm.create_model("vit_large_patch16_384", pretrained=pretrained,
+                              #, pretrained_cfg_overlay=dict(file='~/.cache/huggingface/hub/models--timm--vit_large_patch16_384.augreg_in21k_ft_in1k/pytorch_model.bin')
+                             )
 
     hooks = [5, 11, 17, 23] if hooks == None else hooks
     
