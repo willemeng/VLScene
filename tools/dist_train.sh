@@ -18,8 +18,7 @@ python -m torch.distributed.launch \
     --seed 0 \
     --launcher pytorch ${@:3}
 
-cd ~/gpueater
-python train.py --gpus 2
+
 # #!/usr/bin/env bash
 
 # CONFIG=$1
